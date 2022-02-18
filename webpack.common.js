@@ -2,7 +2,7 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {NetlifyPlugin} = require('netlify-webpack-plugin');
-const {stripVTControlCharacters} = require('util');
+
 module.exports = {
 	target: 'web',
 	entry: {
