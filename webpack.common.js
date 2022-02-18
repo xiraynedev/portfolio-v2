@@ -1,6 +1,8 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const {NetlifyPlugin} = require('netlify-webpack-plugin');
+const {stripVTControlCharacters} = require('util');
 module.exports = {
 	target: 'web',
 	entry: {
@@ -44,7 +46,14 @@ module.exports = {
 		template: path.resolve(__dirname, 'src', 'template.html'),
 		title: 'React Portfolio',
 		favicon: path.resolve(__dirname, 'favicon.png'),
-	})],
+	}), new NetlifyPlugin({
+		headers: {
+			'/images/*': {
+				'Cache-Control': 'immutable',
+			},
+		},
+	}),
+	],
 	resolve: {
 		extensions: ['.tsx', '.ts', '.js'],
 	},
