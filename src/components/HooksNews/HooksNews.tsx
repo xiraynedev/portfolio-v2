@@ -17,7 +17,7 @@ export const HooksNews: React.FC = () => {
         <a href='https://hooks-news-392be.web.app/new/1'
            className='mt-8 block border w-48 p-4 shadow text-blue-900 font-bold text-3xl'>See Live</a>
       </article>
-      <article className='my-8 shrink-0 w-11/12 md:w-7/12 shadow border-0'>
+      <article className='my-8 shrink-0 w-full md:w-7/12 shadow border-0'>
         <div>
           <a href='https://hooks-news-392be.web.app/new/1'>
             <picture>

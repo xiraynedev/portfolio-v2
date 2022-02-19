@@ -16,7 +16,7 @@ export const ReactDesign: React.FC = () => {
           <a href="https://github.com/xiraynedev/design-demo" className='border w-52 p-4 shadow text-blue-900 font-bold text-3xl'>Source Code</a>
         </div>
       </article>
-      <article className='my-8 shrink-0 w-11/12 md:w-7/12 shadow border-0'>
+      <article className='my-8 shrink-0 w-full md:w-7/12 shadow border-0'>
         <div className='w-full'>
           <a href='https://react-design-app.netlify.app/'>
             <picture>
