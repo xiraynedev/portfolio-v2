@@ -1,5 +1,6 @@
 import React, {FC} from 'react';
-const packageSearchFull = require('../../assets/package-search.webp');
+const packageSearchFull = require('../../assets/package-search-full.webp');
+const packageSearchMedium = require('../../assets/package-search-medium.webp');
 
 export const PackageSearch: FC = () => {
   return (
@@ -21,7 +22,7 @@ export const PackageSearch: FC = () => {
           <a href='https://package-search.netlify.app/'>
             <picture>
               <source srcSet={packageSearchFull} media='(min-width:800px)'/>
-              <img src={packageSearchFull} alt='React package search project.'/>
+              <img src={packageSearchMedium} alt='React package search project.'/>
             </picture>
           </a>
         </div>
