@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
 import {ProjectComponent} from '../ProjectComponent/ProjectComponent';
 
-const packageSearchFull = require('../../assets/package-search-full.webp');
+const packageSearchLarge = require('../../assets/package-search-large.webp');
 const packageSearchMedium = require('../../assets/package-search-medium.webp');
 
 export const PackageSearch: FC = () => {
@@ -12,7 +12,7 @@ export const PackageSearch: FC = () => {
     of Redux to keep track of state. Styling is handled via Tailwind CSS.`,
     liveAnchorHref: 'https://package-search.netlify.app/',
     sourceAnchorHref: 'https://github.com/xiraynedev/package-search',
-    imageFull: packageSearchFull,
+    imageFull: packageSearchLarge,
     imageMedium: packageSearchMedium,
   };
 

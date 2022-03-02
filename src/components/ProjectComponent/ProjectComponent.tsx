@@ -23,7 +23,9 @@ export const ProjectComponent: FC<ProjectProps> = ({packageProps}) => {
         </p>
         <div className='flex items-center mt-8'>
           <a href={liveAnchorHref} className='border w-48 p-4 shadow text-blue-900 font-bold text-3xl mr-8'>See Live</a>
-          {sourceAnchorHref && <a href={sourceAnchorHref} className='border w-52 p-4 shadow text-blue-900 font-bold text-3xl'>Source Code</a>}
+          {sourceAnchorHref &&
+						<a href={sourceAnchorHref} className='border w-52 p-4 shadow text-blue-900 font-bold text-3xl'>Source
+							Code</a>}
         </div>
       </article>
       <article className='my-8 shrink-0 w-full md:w-7/12 shadow border-0'>
