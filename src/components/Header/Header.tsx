@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
         <article>
           <p className='w-9/12 text-3xl leading-normal my-8 mx-auto py-12'>I have worked with technology for many years,
             including HTML, CSS, JavaScript, React, Node, and Express.
-            I utilize webpack and Babel to build projects from scratch. When required, I use build tools like Parcel and
+            I utilize webpack to build projects from scratch. When required, I use build tools like Parcel and
             frameworks like Next.js to speed up the development workflow. I implement continuous integration and
             deployment with GitHub Actions and unit testing with Jest.
           </p>
