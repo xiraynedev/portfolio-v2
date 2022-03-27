@@ -11,9 +11,9 @@ export const Container: React.FC = () => {
     <>
       <Header/>
       <h2 className='text-center mt-20 mb-8 lg:mb-20 text-6xl font-bold'>PROJECTS</h2>
-      <ReactSocial/>
-      <ReactDesign/>
       <PackageSearch/>
+      <ReactDesign/>
+      <ReactSocial/>
       <Footer/>
     </>
   );
