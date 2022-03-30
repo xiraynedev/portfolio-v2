@@ -1,8 +1,13 @@
-import React from 'react';
-
+import React, {useLayoutEffect} from 'react';
+import gsap from 'gsap';
 export const Header: React.FC = () => {
+
+  useLayoutEffect(() => {
+    gsap.to('#top', {duration: 1.5, y: 0, ease: 'Bounce.easeOut'})
+  })
+
   return (
-    <header id='top' className='text-white mx-auto bg-gradient-to-r from-yellow-900 to-yellow-500 py-20'>
+    <header id='top' className='-translate-y-full text-white mx-auto bg-gradient-to-r from-yellow-900 to-yellow-500 py-20'>
       <section className='lg:max-w-screen-lg mx-auto'>
         <h1 className='text-center text-6xl font-bold p-4 mb-5'>RAYMOND CORTES</h1>
         <article>

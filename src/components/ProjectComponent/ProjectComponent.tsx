@@ -1,4 +1,5 @@
-import React, {FC} from 'react';
+import React, {FC, useLayoutEffect} from 'react';
+import gsap from 'gsap';
 
 interface ProjectProps {
   packageProps: {
@@ -14,8 +15,14 @@ interface ProjectProps {
 export const ProjectComponent: FC<ProjectProps> = ({packageProps}) => {
   const {title, text, liveAnchorHref, sourceAnchorHref, imageFull, imageMedium} = packageProps;
 
+  useLayoutEffect(() => {
+    gsap.to('#project-section', {opacity: 1, duration: 2.5, delay: 1.75, ease: 'Bounce.easeOut'})
+  })
+
   return (
-    <section className='flex flex-col mx-auto mb-20 w-9/12 lg:flex-row lg:mt-12 lg:max-w-screen-lg'>
+    <section
+    id='project-section'
+      className='opacity-0 flex flex-col mx-auto mb-20 w-9/12 lg:flex-row lg:mt-12 lg:max-w-screen-lg'>
       <article className='my-8 md:mr-20'>
         <h3 className='font-bold text-5xl mb-5'>{title}</h3>
         <p className='leading-normal text-3xl lg:my-8'>
