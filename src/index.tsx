@@ -1,6 +1,7 @@
 import React from 'react';
-import {render} from 'react-dom';
-import './global.scss';
+import ReactDOM from 'react-dom/client';
 import {Container} from './components/Container/Container';
+import './global.scss';
 
-render(<Container />, document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLDivElement);
+root.render(<Container />);
