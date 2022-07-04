@@ -14,6 +14,7 @@ export const Resume: FC = () => {
     <Stack
       direction='column'
       spacing={2}
+      marginY={4}
       marginX='auto'
       width='90%'
       mb={3}
