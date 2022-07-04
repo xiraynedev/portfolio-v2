@@ -11,11 +11,7 @@ export const Header: React.FC = () => {
       <section className='lg:max-w-screen-lg mx-auto'>
         <h1 className='text-center text-6xl font-bold p-4 mb-5'>RAYMOND CORTES</h1>
         <article>
-          <p className='w-9/12 text-3xl leading-normal my-8 mx-auto py-12'>I have worked with technology for many years,
-            including HTML, CSS, JavaScript, React, Node, and Express.
-            I utilize webpack to build projects from scratch. When required, I use build tools like Parcel and
-            frameworks like Next.js to speed up the development workflow. I implement continuous integration and
-            deployment with GitHub Actions and unit testing with Jest.
+          <p className='w-9/12 text-3xl leading-normal my-8 mx-auto py-12'>I have worked with technology for many years. This portfolio contains work that began from scratch. As obstacles were encountered with code duplication and other problems, the portfolio has been refactored using several technologies that include HTML, CSS, JavaScript, React, Node, TypeScript, webpack, and more. The portfolio is updated as new projects are undertaken.
           </p>
           <a href='https://github.com/xiraynedev' className='block w-9/12 my-8 p-4 text-3xl mx-auto text-center border'>View
             GitHub Profile</a>
