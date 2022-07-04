@@ -33,6 +33,9 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.6",
     "gsap": "^3.10.0",
     "npm": "^8.13.2",
     "react": "^18.2.0",
