@@ -24,7 +24,6 @@ export const Resume: FC = () => {
           Raymond Cortes
         </Typography>
         <Typography className='text-4xl'>xiraynedev@gmail.com</Typography>
-        <Typography className='text-4xl'>954-225-1870</Typography>
         <Typography className='text-4xl'>Location</Typography>
         <Typography className='text-4xl'>Coconut Creek, FL</Typography>
       </Stack>
