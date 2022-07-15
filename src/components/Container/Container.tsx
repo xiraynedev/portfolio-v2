@@ -6,6 +6,7 @@ import { PackageSearch } from '../PackageSearch/PackageSearch';
 import { ReactSocial } from '../ReactSocial/ReactSocial';
 import gsap from 'gsap';
 import { NextNews } from '../NextNews/NextNews';
+import { ReactBasics } from '../ReactBasics/ReactBasics';
 
 export const Container: React.FC = () => {
   useLayoutEffect(() => {
@@ -27,6 +28,7 @@ export const Container: React.FC = () => {
         PROJECTS
       </h2>
       <NextNews />
+      <ReactBasics />
       <ReactSocial />
       <PackageSearch />
       <ReactDesign />
