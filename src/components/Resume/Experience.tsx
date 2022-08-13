@@ -1,13 +1,12 @@
-import React, { FC } from 'react';
-import { SectionComponent } from './SectionComponent';
+import React, { FC } from "react";
+import { SectionComponent } from "./SectionComponent";
 
 export const Experience: FC = () => {
   const experience = {
-    title: 'Experience',
+    title: "Experience",
     description:
-      'Spent the last two years learning about many software technologies and building projects from scratch. Gained familiarity with build tools, Git, and GitHub. Experienced with JavaScript and several frontend libraries and frameworks. Able to use Linux for development tasks.',
+      "Experienced with the software development life cycle from requirements gathering to planning, designing, programming, testing, and deployment. Utilize GitHub Actions for the CI/CD pipeline. Currently work to build microservices with Next.js, TypeScript, Node.js, Docker, MongoDB, and Microsoft Azure.",
   };
 
   return <SectionComponent {...experience} />;
 };
-
