@@ -5,7 +5,7 @@ import { Summary } from './Summary';
 import { Experience } from './Experience';
 import { Skill } from './Skill';
 import { Education } from './Education';
-import { Language } from './Language';
+import { SoftSkill } from './SoftSkill';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 
@@ -31,7 +31,7 @@ export const Resume: FC = () => {
       <Experience />
       <Skill />
       <Education />
-      <Language />
+      <SoftSkill />
       <Stack direction='row' pt={3}>
         <Link to='/'>
           <Button variant='contained'>Return to Portfolio</Button>
