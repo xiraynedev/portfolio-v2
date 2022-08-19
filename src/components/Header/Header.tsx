@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 export const Header: React.FC = () => {
   useLayoutEffect(() => {
-    gsap.to('#top', { duration: 1.5, y: 0, ease: 'Bounce.easeOut' });
+    gsap.to('#top', { opacity: 1, duration: 3 });
   });
 
   return (
     <header
       id='top'
-      className='-translate-y-full text-white mx-auto bg-gradient-to-r from-yellow-900 to-yellow-500 py-20'
+      className='opacity-0 text-white mx-auto bg-gradient-to-r from-yellow-900 to-yellow-500 py-20'
     >
       <section className='lg:max-w-screen-lg mx-auto'>
         <h1 className='text-center text-6xl font-bold p-4 mb-5'>
