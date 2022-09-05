@@ -1,6 +1,7 @@
 import React, { useLayoutEffect } from 'react';
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
+
 export const Header: React.FC = () => {
   useLayoutEffect(() => {
     gsap.to('#top', { opacity: 1, duration: 3 });
@@ -18,10 +19,9 @@ export const Header: React.FC = () => {
         <article>
           <p className='w-9/12 text-3xl leading-normal my-8 mx-auto py-12'>
             I have worked with technology for many years. This portfolio
-            contains work that began from scratch. As obstacles were encountered
+            contained work that began from scratch with HTML, CSS, and JavaScript. As obstacles were encountered
             with code duplication and other problems, the portfolio has been
-            refactored using several technologies that include HTML, CSS,
-            JavaScript, React, Node, TypeScript, webpack, and more. The
+            refactored using several technologies that include React.js, Node.js, TypeScript, webpack, and more. The
             portfolio is updated as new projects are undertaken.
           </p>
           <a
