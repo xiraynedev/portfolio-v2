@@ -11,7 +11,9 @@ A portfolio of projects using HTML, CSS, JavaScript, React.js, TypeScript, Next.
 
 ![portfolio image](./project-screenshot.webp)
 
-Installation
+---
+
+## Installation Instructions
 
 1. Clone the repo:
 
