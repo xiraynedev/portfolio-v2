@@ -10,3 +10,23 @@
 A portfolio of projects using HTML, CSS, JavaScript, React.js, TypeScript, Next.js, Node.js, Tailwind CSS, SCSS, and webpack.
 
 ![portfolio image](./project-screenshot.webp)
+
+Installation
+
+1. Clone the repo:
+
+```sh
+git clone https://github.com/xiraynedev/portfolio-v2.git
+```
+
+2. Run:
+
+```sh
+npm i
+```
+
+3. Start the dev server by running:
+
+```sh
+npm run dev
+```
