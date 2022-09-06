@@ -21,13 +21,19 @@ A portfolio of projects using HTML, CSS, JavaScript, React.js, TypeScript, Next.
 git clone https://github.com/xiraynedev/portfolio-v2.git
 ```
 
-2. Run:
+2. Change directory:
+
+```sh
+cd portfolio-v2
+```
+
+3. Run:
 
 ```sh
 npm i
 ```
 
-3. Start the dev server by running:
+4. Start the dev server by running:
 
 ```sh
 npm run dev
