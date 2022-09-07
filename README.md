@@ -27,7 +27,7 @@ git clone https://github.com/xiraynedev/portfolio-v2.git
 cd portfolio-v2
 ```
 
-3. Run:
+3. Install packages:
 
 ```sh
 npm i
