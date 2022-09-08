@@ -1,36 +1,42 @@
-import React, { useLayoutEffect } from 'react';
-import { Link } from 'react-router-dom';
-import gsap from 'gsap';
+import React, { useLayoutEffect } from "react";
+import { Link } from "react-router-dom";
+import gsap from "gsap";
 
 export const Header: React.FC = () => {
   useLayoutEffect(() => {
-    gsap.to('#top', { opacity: 1, duration: 3 });
+    gsap.to("#top", { opacity: 1, duration: 3 });
   });
 
   return (
     <header
-      id='top'
-      className='opacity-0 text-white mx-auto bg-gradient-to-r from-yellow-900 to-yellow-500 py-20'
+      id="top"
+      className="opacity-0 text-white mx-auto bg-gradient-to-r from-yellow-900 to-yellow-500 py-20"
     >
-      <section className='lg:max-w-screen-lg mx-auto'>
-        <h1 className='text-center text-6xl font-bold p-4 mb-5'>
+      <section className="lg:max-w-screen-lg mx-auto">
+        <h1 className="text-center text-6xl font-bold p-4 mb-5">
           RAYMOND CORTES
         </h1>
         <article>
-          <p className='w-9/12 text-3xl leading-normal my-8 mx-auto py-12'>
+          <p className="w-9/12 text-3xl leading-normal my-8 mx-auto py-12">
             I have worked with technology for many years. This portfolio
-            contained work that began from scratch with HTML, CSS, and JavaScript. As obstacles were encountered
-            with code duplication and other problems, the portfolio has been
-            refactored using several technologies that include React.js, Node.js, TypeScript, webpack, and more. The
-            portfolio is updated as new projects are undertaken.
+            contained work that began from scratch with HTML, CSS, and
+            JavaScript. As obstacles were encountered with code duplication and
+            other problems, the portfolio has been refactored using several
+            technologies that include React.js, Node.js, TypeScript, webpack,
+            and more. The portfolio is updated as new projects are undertaken.
           </p>
           <a
-            href='https://github.com/xiraynedev'
-            className='block w-9/12 my-8 p-4 text-3xl mx-auto text-center border'
+            href="https://github.com/xiraynedev"
+            className="block w-9/12 my-8 p-4 text-3xl mx-auto text-center border"
           >
             View GitHub Profile
           </a>
-          <Link to='/resume' className='block w-9/12 p-4 text-3xl mx-auto text-center border transition ease-in duration-300'>View Resume</Link>
+          <Link
+            to="/resume"
+            className="block w-9/12 p-4 text-3xl mx-auto text-center border transition ease-in duration-300"
+          >
+            View Resume
+          </Link>
         </article>
       </section>
     </header>
