@@ -10,7 +10,7 @@ export const Header: React.FC = () => {
   return (
     <header
       id="top"
-      className="opacity-0 text-white mx-auto bg-gradient-to-r from-yellow-900 to-yellow-500 py-20"
+      className="opacity-0 text-white mx-auto bg-gradient-to-r from-yellow-500 to-blue-500 py-20"
     >
       <section className="lg:max-w-screen-lg mx-auto">
         <h1 className="text-center text-6xl font-bold p-4 mb-5">
