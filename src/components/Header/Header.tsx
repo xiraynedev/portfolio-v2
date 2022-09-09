@@ -18,12 +18,11 @@ export const Header: React.FC = () => {
         </h1>
         <article>
           <p className="w-9/12 text-3xl leading-normal my-8 mx-auto py-12">
-            I have worked with technology for many years. This portfolio
-            contained work that began from scratch with HTML, CSS, and
-            JavaScript. As obstacles were encountered with code duplication and
-            other problems, the portfolio has been refactored using several
-            technologies that include React.js, Node.js, TypeScript, webpack,
-            and more. The portfolio is updated as new projects are undertaken.
+            Spent the last three years working with JavaScript and related
+            libraries and frameworks. Have also worked with Python, Django, and
+            SQL to build full-stack Web applications. Mostly work with Node.js,
+            Next.js, and TypeScript to build microservices packaged with Docker
+            and hosted on Microsoft Azure.
           </p>
           <a
             href="https://github.com/xiraynedev"
