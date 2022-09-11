@@ -1,9 +1,9 @@
-import React, { FC } from "react";
-import { SectionComponent } from "./SectionComponent";
+import React, { FC } from 'react';
+import { SectionComponent } from './SectionComponent';
 
 export const Language: FC = () => {
   const languages = {
-    title: "Languages",
+    title: 'Languages',
     description: `English, Spanish`,
   };
 
