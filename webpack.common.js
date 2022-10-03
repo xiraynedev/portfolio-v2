@@ -51,7 +51,7 @@ module.exports = {
     }),
     new NetlifyPlugin({
       headers: {
-        '/images/*': {
+        '/source/assets/*': {
           'Cache-Control': 'immutable',
         },
       },

@@ -6,6 +6,7 @@ import { PackageSearch } from '../PackageSearch/PackageSearch';
 import gsap from 'gsap';
 import { NextNews } from '../NextNews/NextNews';
 import { ReactBasics } from '../ReactBasics/ReactBasics';
+import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
 
 export const Container: React.FC = () => {
   useLayoutEffect(() => {
@@ -28,6 +29,7 @@ export const Container: React.FC = () => {
       </h2>
       <NextNews />
       <ReactBasics />
+      <CodingChallenge />
       <PackageSearch />
       <ReactDesign />
       <Footer />
