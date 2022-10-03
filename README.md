@@ -11,7 +11,7 @@
 
 A portfolio of projects using HTML, CSS, JavaScript, React.js, TypeScript, Next.js, Node.js, Tailwind CSS, SCSS, and webpack.
 
-![portfolio image](./project-screenshot.webp)
+![portfolio image](src/assets/project-screenshot.webp)
 
 ---
 
