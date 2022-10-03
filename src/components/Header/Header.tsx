@@ -19,10 +19,10 @@ export const Header: React.FC = () => {
         <article>
           <p className='w-9/12 text-3xl leading-normal my-8 mx-auto py-12'>
             Spent the last three years working with JavaScript and related
-            libraries and frameworks. Have also worked with Python, Django, and
-            SQL to build full-stack Web applications. Mostly work with Node.js,
-            Next.js, and TypeScript to build microservices packaged with Docker
-            and hosted on Microsoft Azure.
+            libraries and frameworks. This portfolio showcases projects built
+            using a variety of languages and tools. I currently specialize in
+            React, Next.js, and TypeScript. All of these projects are hosted on
+            GitHub and have simple instructions for cloning and installing them.
           </p>
           <a
             href='https://github.com/xiraynedev'
