@@ -5,8 +5,8 @@ interface ProjectProps {
   packageProps: {
     title: string;
     text: string;
-    liveAnchorHref: string;
-    sourceAnchorHref?: string;
+    liveAnchorHref?: string;
+    sourceAnchorHref: string;
     imageFull: any;
     imageMedium: any;
   };
@@ -40,12 +40,14 @@ export const ProjectComponent: FC<ProjectProps> = ({ packageProps }) => {
         <h3 className='font-bold text-5xl mb-5'>{title}</h3>
         <p className='leading-normal text-3xl lg:my-8'>{text}</p>
         <div className='flex items-center mt-8'>
-          <a
-            href={liveAnchorHref}
-            className='border w-48 p-4 shadow text-blue-900 font-bold text-3xl mr-8'
-          >
-            See Live
-          </a>
+          {liveAnchorHref && (
+            <a
+              href={liveAnchorHref}
+              className='border w-48 p-4 shadow text-blue-900 font-bold text-3xl mr-8'
+            >
+              See Live
+            </a>
+          )}
           {sourceAnchorHref && (
             <a
               href={sourceAnchorHref}

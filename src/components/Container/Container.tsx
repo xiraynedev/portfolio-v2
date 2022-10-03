@@ -7,6 +7,7 @@ import gsap from 'gsap';
 import { NextNews } from '../NextNews/NextNews';
 import { ReactBasics } from '../ReactBasics/ReactBasics';
 import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
+import { JavaMusicPlayer } from '../JavaMusicPlayer/JavaMusicPlayer';
 
 export const Container: React.FC = () => {
   useLayoutEffect(() => {
@@ -28,8 +29,9 @@ export const Container: React.FC = () => {
         PROJECTS
       </h2>
       <NextNews />
-      <ReactBasics />
+      <JavaMusicPlayer />
       <CodingChallenge />
+      <ReactBasics />
       <PackageSearch />
       <ReactDesign />
       <Footer />
