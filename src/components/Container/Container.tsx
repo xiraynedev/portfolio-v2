@@ -1,13 +1,14 @@
 import React, { useLayoutEffect } from 'react';
+import gsap from 'gsap';
 import { Header } from '../Header/Header';
+import { NextNews } from '../NextNews/NextNews';
+import { JavaMusicPlayer } from '../JavaMusicPlayer/JavaMusicPlayer';
+import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
+import { ReactBasics } from '../ReactBasics/ReactBasics';
+import { PackageSearch } from '../PackageSearch/PackageSearch';
+import { WasmDemo } from '../WasmDemo/WasmDemo';
 import { ReactDesign } from '../ReactDesign/ReactDesign';
 import { Footer } from '../Footer/Footer';
-import { PackageSearch } from '../PackageSearch/PackageSearch';
-import gsap from 'gsap';
-import { NextNews } from '../NextNews/NextNews';
-import { ReactBasics } from '../ReactBasics/ReactBasics';
-import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
-import { JavaMusicPlayer } from '../JavaMusicPlayer/JavaMusicPlayer';
 
 export const Container: React.FC = () => {
   useLayoutEffect(() => {
@@ -33,6 +34,7 @@ export const Container: React.FC = () => {
       <CodingChallenge />
       <ReactBasics />
       <PackageSearch />
+      <WasmDemo />
       <ReactDesign />
       <Footer />
     </>
