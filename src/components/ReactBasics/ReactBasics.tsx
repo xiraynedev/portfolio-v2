@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
 
-const reactBasicsLarge = require('../../assets/react-basics-large.webp');
-const reactBasicsMedium = require('../../assets/react-basics-medium.webp');
+const reactBasicsLarge = require('../../assets/images/react-basics-large.webp');
+const reactBasicsMedium = require('../../assets/images/react-basics-medium.webp');
 
 export const ReactBasics: FC = () => {
   const reactBasicsProps = {

@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
 
-const codingChallengeLarge = require('../../assets/coding-challenge-large.webp');
-const codingChallengeMedium = require('../../assets/coding-challenge-medium.webp');
+const codingChallengeLarge = require('../../assets/images/coding-challenge-large.webp');
+const codingChallengeMedium = require('../../assets/images/coding-challenge-medium.webp');
 
 export const CodingChallenge: FC = () => {
   const codingChallengeProps = {

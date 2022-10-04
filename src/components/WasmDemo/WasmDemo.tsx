@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
 
-const wasmDemoLarge = require('../../assets/wasm-demo-large.webp');
-const wasmDemoMedium = require('../../assets/wasm-demo-medium.webp');
+const wasmDemoLarge = require('../../assets/images/wasm-demo-large.webp');
+const wasmDemoMedium = require('../../assets/images/wasm-demo-medium.webp');
 
 export const WasmDemo: FC = () => {
   const wasmDemoProps = {

@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
 
-const nextNewsLarge = require('../../assets/next-news-large.webp');
-const nextNewsMedium = require('../../assets/next-news-medium.webp');
+const nextNewsLarge = require('../../assets/images/next-news-large.webp');
+const nextNewsMedium = require('../../assets/images/next-news-medium.webp');
 
 export const NextNews: FC = () => {
   const nextNewsProps = {

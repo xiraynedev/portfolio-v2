@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
 
-const packageSearchLarge = require('../../assets/package-search-large.webp');
-const packageSearchMedium = require('../../assets/package-search-medium.webp');
+const packageSearchLarge = require('../../assets/images/package-search-large.webp');
+const packageSearchMedium = require('../../assets/images/package-search-medium.webp');
 
 export const PackageSearch: FC = () => {
   const packageSearchProps = {

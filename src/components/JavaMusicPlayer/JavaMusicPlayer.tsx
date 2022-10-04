@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
 
-const javaMusicPlayerLarge = require('../../assets/java-music-player-large.webp');
-const javaMusicPlayerMedium = require('../../assets/java-music-player-medium.webp');
+const javaMusicPlayerLarge = require('../../assets/images/java-music-player-large.webp');
+const javaMusicPlayerMedium = require('../../assets/images/java-music-player-medium.webp');
 
 export const JavaMusicPlayer: FC = () => {
   const javaMusicPlayerProps = {
