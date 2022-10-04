@@ -1,13 +1,13 @@
 {
   "name": "portfolio-v2",
   "version": "1.0.0",
-  "description": "A portfolio of projects using React, TypeScript, Tailwind CSS, webpack, and Babel.",
+  "description": "A portfolio of projects using React, Next.js, TypeScript, Java, Python, C, Django, CSS, SCSS, Tailwind CSS, webpack, Babel, and Maven.",
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint ."
   },
-  "author": "Raymond Cortes",
+  "author": "xiraynedev",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.4",
@@ -43,7 +43,6 @@
     "@mui/icons-material": "^5.8.4",
     "@mui/material": "^5.8.6",
     "gsap": "^3.10.0",
-    "npm": "^8.13.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",

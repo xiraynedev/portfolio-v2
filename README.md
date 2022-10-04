@@ -9,7 +9,7 @@
 
 ## View the project live [here](https://portfolio-projects-v2.netlify.app/)
 
-A portfolio of projects using HTML, CSS, JavaScript, React.js, TypeScript, Next.js, Node.js, Tailwind CSS, SCSS, and webpack.
+A portfolio of projects using React, Next.js, TypeScript, Java, Python, C, Django, CSS, SCSS, Tailwind CSS, webpack, Babel, and Maven.
 
 ![portfolio image](src/assets/images/project-screenshot.webp)
 
