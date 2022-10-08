@@ -6,7 +6,7 @@ interface ProjectProps {
     title: string;
     text: string;
     liveAnchorHref?: string;
-    sourceAnchorHref: string;
+    sourceAnchorHref?: string;
     imageFull: any;
     imageMedium: any;
   };
@@ -60,16 +60,29 @@ export const ProjectComponent: FC<ProjectProps> = ({ packageProps }) => {
       </article>
       <article className='my-8 shrink-0 w-full h-full md:w-7/12 shadow border-0 rounded-lg'>
         <div className='w-full'>
-          <a href={liveAnchorHref}>
-            <picture>
-              <source srcSet={imageFull} media='(min-width:800px)' />
-              <img
-                src={imageMedium}
-                alt='project screenshot'
-                className='rounded-lg'
-              />
-            </picture>
-          </a>
+          {liveAnchorHref ? (
+            <a href={liveAnchorHref}>
+              <picture>
+                <source srcSet={imageFull} media='(min-width:800px)' />
+                <img
+                  src={imageMedium}
+                  alt='project screenshot'
+                  className='rounded-lg'
+                />
+              </picture>
+            </a>
+          ) : (
+            <a href={sourceAnchorHref}>
+              <picture>
+                <source srcSet={imageFull} media='(min-width:800px)' />
+                <img
+                  src={imageMedium}
+                  alt='project screenshot'
+                  className='rounded-lg'
+                />
+              </picture>
+            </a>
+          )}
         </div>
       </article>
     </section>
