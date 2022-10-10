@@ -7,7 +7,7 @@ const packageSearchMedium = require('../../assets/images/package-search-medium.w
 export const PackageSearch: FC = () => {
   const packageSearchProps = {
     title: 'Package Search',
-    text: `This project uses React with TypeScript and Redux to search the NPM Registry for any package names typed in
+    text: `This project uses React with TypeScript to search the NPM Registry for any package names typed in
     the search field. If packages are found, they are displayed in a list below the form. The project makes use
     of Redux to keep track of state. Styling is handled via Tailwind CSS.`,
     liveAnchorHref: 'https://package-search.netlify.app/',
