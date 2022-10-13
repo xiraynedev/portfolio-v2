@@ -9,7 +9,7 @@ export const PackageSearch: FC = () => {
     title: 'Package Search',
     text: `This project uses React with TypeScript to search the NPM Registry for any package names typed in
     the search field. If packages are found, they are displayed in a list below the form. The project makes use
-    of Redux to keep track of state. Styling is handled via Tailwind CSS.`,
+    of the Redux Toolkit to keep track of state. Styling is handled via Tailwind CSS.`,
     liveAnchorHref: 'https://package-search.netlify.app/',
     sourceAnchorHref: 'https://github.com/xiraynedev/package-search',
     imageFull: packageSearchLarge,

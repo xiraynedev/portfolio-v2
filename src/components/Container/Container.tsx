@@ -2,11 +2,11 @@ import React, { useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import { Header } from '../Header/Header';
 import { NextNews } from '../NextNews/NextNews';
+import { PackageSearch } from '../PackageSearch/PackageSearch';
 import { PyBook } from '../PyBook/PyBook';
 import { JavaMusicPlayer } from '../JavaMusicPlayer/JavaMusicPlayer';
 import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
 import { ReactBasics } from '../ReactBasics/ReactBasics';
-import { PackageSearch } from '../PackageSearch/PackageSearch';
 import { WasmDemo } from '../WasmDemo/WasmDemo';
 import { ReactDesign } from '../ReactDesign/ReactDesign';
 import { Footer } from '../Footer/Footer';
@@ -31,11 +31,11 @@ export const Container: React.FC = () => {
         PROJECTS
       </h2>
       <NextNews />
+      <PackageSearch />
       <PyBook />
       <JavaMusicPlayer />
       <CodingChallenge />
       <ReactBasics />
-      <PackageSearch />
       <WasmDemo />
       <ReactDesign />
       <Footer />
