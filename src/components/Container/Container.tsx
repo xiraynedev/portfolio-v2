@@ -10,6 +10,7 @@ import { ReactBasics } from '../ReactBasics/ReactBasics';
 import { WasmDemo } from '../WasmDemo/WasmDemo';
 import { ReactDesign } from '../ReactDesign/ReactDesign';
 import { Footer } from '../Footer/Footer';
+import { ThreadSearch } from '../ThreadSearch/ThreadSearch';
 
 export const Container: React.FC = () => {
   useLayoutEffect(() => {
@@ -32,6 +33,7 @@ export const Container: React.FC = () => {
       </h2>
       <NextNews />
       <PackageSearch />
+      <ThreadSearch />
       <PyBook />
       <JavaMusicPlayer />
       <CodingChallenge />
