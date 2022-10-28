@@ -10,14 +10,14 @@ export const Header: React.FC = () => {
   return (
     <header
       id='top'
-      className='opacity-0 text-white mx-auto bg-gradient-to-r from-yellow-500 to-blue-500 py-20'
+      className='opacity-0 text-white mx-auto bg-gradient-to-r from-gray-500 to-gray-900 py-20'
     >
       <section className='lg:max-w-screen-lg mx-auto'>
         <h1 className='text-center text-6xl font-bold p-4 mb-5'>
           RAYMOND CORTES
         </h1>
         <article>
-          <p className='w-9/12 text-3xl leading-normal my-8 mx-auto py-12'>
+          <p className='w-9/12 text-3xl leading-relaxed my-8 mx-auto py-12'>
             Three years experience working with JavaScript and related libraries
             and frameworks. This portfolio showcases projects built using a
             variety of languages and tools. Currently specialize in React,
