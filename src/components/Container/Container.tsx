@@ -8,7 +8,7 @@ import { ThreadSearch } from '../ThreadSearch/ThreadSearch';
 import { PyBook } from '../PyBook/PyBook';
 import { JavaMusicPlayer } from '../JavaMusicPlayer/JavaMusicPlayer';
 import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
-import { ReactBasics } from '../ReactBasics/ReactBasics';
+import { ReactMessage } from '../ReactMessage/ReactMessage';
 import { WasmDemo } from '../WasmDemo/WasmDemo';
 import { ReactDesign } from '../ReactDesign/ReactDesign';
 import { Footer } from '../Footer/Footer';
@@ -39,7 +39,7 @@ export const Container: React.FC = () => {
       <PyBook />
       <JavaMusicPlayer />
       <CodingChallenge />
-      <ReactBasics />
+      <ReactMessage />
       <WasmDemo />
       <ReactDesign />
       <Footer />
