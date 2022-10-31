@@ -1,12 +1,12 @@
 import React, { useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import { Header } from '../Header/Header';
-import { NextNews } from '../NextNews/NextNews';
 import { AudioConverter } from '../AudioConverter/AudioConverter';
 import { PackageSearch } from '../PackageSearch/PackageSearch';
 import { ThreadSearch } from '../ThreadSearch/ThreadSearch';
-import { PyBook } from '../PyBook/PyBook';
 import { JavaMusicPlayer } from '../JavaMusicPlayer/JavaMusicPlayer';
+import { NextNews } from '../NextNews/NextNews';
+import { PyBook } from '../PyBook/PyBook';
 import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
 import { ReactMessage } from '../ReactMessage/ReactMessage';
 import { WasmDemo } from '../WasmDemo/WasmDemo';
@@ -32,12 +32,12 @@ export const Container: React.FC = () => {
       >
         PROJECTS
       </h2>
-      <NextNews />
       <AudioConverter />
       <PackageSearch />
       <ThreadSearch />
-      <PyBook />
       <JavaMusicPlayer />
+      <NextNews />
+      <PyBook />
       <CodingChallenge />
       <ReactMessage />
       <WasmDemo />
