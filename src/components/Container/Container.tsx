@@ -1,6 +1,7 @@
 import React, { useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import { Header } from '../Header/Header';
+import { NextWars } from '../NextWars/NextWars';
 import { AudioConverter } from '../AudioConverter/AudioConverter';
 import { PackageSearch } from '../PackageSearch/PackageSearch';
 import { ThreadSearch } from '../ThreadSearch/ThreadSearch';
@@ -32,6 +33,7 @@ export const Container: React.FC = () => {
       >
         PROJECTS
       </h2>
+      <NextWars />
       <AudioConverter />
       <PackageSearch />
       <ThreadSearch />
