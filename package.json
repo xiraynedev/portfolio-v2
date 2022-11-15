@@ -1,7 +1,7 @@
 {
   "name": "portfolio-v2",
   "version": "1.0.0",
-  "description": "A portfolio of projects using React, Next.js, TypeScript, Java, Python, C, Django, CSS, SCSS, Tailwind CSS, webpack, Babel, and Maven.",
+  "description": "A portfolio of projects using React, Next.js, TypeScript, Java, C#, Python, C, Django, CSS, SCSS, Tailwind CSS, webpack, Babel, and Maven.",
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
