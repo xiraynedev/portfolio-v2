@@ -2,7 +2,7 @@
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
 ![ReactDOM](https://img.shields.io/badge/ReactDOM-18.2.0-blue)
 ![webpack](https://img.shields.io/badge/webpack-5.69.0-blue)
-![webpack-cli](https://img.shields.io/badge/webpack--cli-4.9.2-blue)
+![webpack-cli](https://img.shields.io/badge/webpack--cli-5.0.0-blue)
 ![webpack-dev-server](https://img.shields.io/badge/webpack--dev--server-4.7.4-blue)
 
 # portfolio-v2
