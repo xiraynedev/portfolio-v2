@@ -7,7 +7,7 @@ const javaMusicPlayerMedium = require('../../assets/images/java-music-player-med
 export const JavaMusicPlayer: FC = () => {
   const javaMusicPlayerProps = {
     title: 'Java Music Player',
-    text: `This project is a music player built with Java and compiled with Maven. It has options for playing, stopping, resetting, and changing songs. An option to quit the player is also included.`,
+    text: `The Java Music Player was built with Java and compiled with Maven. It has options for playing, stopping, resetting, and changing songs. An option to quit the player is also included.`,
     sourceAnchorHref: 'https://github.com/xiraynedev/java-music-player',
     imageFull: javaMusicPlayerLarge,
     imageMedium: javaMusicPlayerMedium,

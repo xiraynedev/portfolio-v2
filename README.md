@@ -7,9 +7,9 @@
 
 # portfolio-v2
 
-## See the project live [here](https://portfolio-projects-v2.netlify.app/)
+## See the application live [here](https://portfolio-apps.netlify.app/)
 
-A portfolio of projects using React, Next.js, TypeScript, Java, C#, Python, C, Django, HTML, CSS, SCSS, Tailwind CSS, webpack, Babel, and Maven.
+A portfolio of applications using React, Next.js, TypeScript, Java, C#, Python, C, Django, HTML, CSS, SCSS, Tailwind CSS, webpack, Babel, and Maven.
 
 ![portfolio image](src/assets/images/project-screenshot.webp)
 

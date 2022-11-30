@@ -7,7 +7,7 @@ const pybookMedium = require('../../assets/images/pybook-medium.webp');
 export const PyBook: FC = () => {
   const pybookProps = {
     title: 'PyBook',
-    text: `This project is built with Python and Django to perform CRUD operations on a SQLite database to retrieve book information and display it in templates.`,
+    text: `PyBook was built with Python and Django to perform CRUD operations on a SQLite database and to retrieve book information to display it in templates.`,
     sourceAnchorHref: 'https://github.com/xiraynedev/pybook',
     imageFull: pybookLarge,
     imageMedium: pybookMedium,

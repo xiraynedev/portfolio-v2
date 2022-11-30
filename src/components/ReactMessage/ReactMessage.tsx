@@ -7,7 +7,7 @@ const reactMessageMedium = require('../../assets/images/react-message-medium.web
 export const ReactMessage: FC = () => {
   const reactMessageProps = {
     title: 'React Message',
-    text: `A React project for sending messages to a panel, dynamically creating buttons, and changing color themes.`,
+    text: `React Message was built with React. Messages are sent to a panel, buttons are created dynamically, and color themes are changed between light and dark modes.`,
     liveAnchorHref: 'https://react-message-v1.netlify.app/',
     sourceAnchorHref: 'https://github.com/xiraynedev/react-message',
     imageFull: reactMessageLarge,

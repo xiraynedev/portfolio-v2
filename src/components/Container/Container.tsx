@@ -32,7 +32,7 @@ export const Container: React.FC = () => {
         id='title'
         className='-translate-x-full text-center mt-20 mb-8 lg:mb-20 text-6xl font-bold'
       >
-        PROJECTS
+        APPLICATIONS
       </h2>
       <NextStreaming />
       <NextWars />

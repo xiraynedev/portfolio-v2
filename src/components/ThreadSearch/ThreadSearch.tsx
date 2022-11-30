@@ -7,7 +7,7 @@ const threadSearchMedium = require('../../assets/images/thread-search-medium.web
 export const ThreadSearch: FC = () => {
   const threadSearchProps = {
     title: 'Thread Search',
-    text: `This project consists of a console app and a WPF app written in C#. Both apps recursively get the sizes of all files in the specified directories by using separate threads. `,
+    text: `Thread Search consists of console and WPF applications written in C#. Both applications recursively get the sizes of all files in the specified directories by using separate threads. `,
     sourceAnchorHref: 'https://github.com/xiraynedev/thread-search',
     imageFull: threadSearchLarge,
     imageMedium: threadSearchMedium,
