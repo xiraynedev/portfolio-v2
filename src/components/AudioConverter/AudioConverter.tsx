@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
+import { ApplicationContainer } from '../ApplicationContainer/ApplicationContainer';
 
 const audioConverterLarge = require('../../assets/images/audio-converter-large.webp');
 const audioConverterMedium = require('../../assets/images/audio-converter-medium.webp');
@@ -13,5 +13,5 @@ export const AudioConverter: FC = () => {
     imageMedium: audioConverterMedium,
   };
 
-  return <ProjectComponent packageProps={audioConverterProps} />;
+  return <ApplicationContainer applicationProps={audioConverterProps} />;
 };

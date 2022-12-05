@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
+import { ApplicationContainer } from '../ApplicationContainer/ApplicationContainer';
 
 const reactDesignLarge = require('../../assets/images/react-design-large.webp');
 const reactDesignMedium = require('../../assets/images/react-design-medium.webp');
@@ -15,5 +15,5 @@ export const ReactDesign: FC = () => {
     imageMedium: reactDesignMedium,
   };
 
-  return <ProjectComponent packageProps={reactDesignProps} />;
+  return <ApplicationContainer applicationProps={reactDesignProps} />;
 };

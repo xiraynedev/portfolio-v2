@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { SectionComponent } from './SectionComponent';
+import { SectionContainer } from './SectionContainer';
 
 export const Summary: FC = () => {
   const summary = {
@@ -7,5 +7,5 @@ export const Summary: FC = () => {
     description: `Acquired extensive JavaScript knowledge while building full-stack applications with various libraries and frameworks. Looking to work in a fast-paced environment that provides continual challenges to improve my skills.`,
   };
 
-  return <SectionComponent {...summary} />;
+  return <SectionContainer {...summary} />;
 };

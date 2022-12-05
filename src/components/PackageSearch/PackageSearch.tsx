@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
+import { ApplicationContainer } from '../ApplicationContainer/ApplicationContainer';
 
 const packageSearchLarge = require('../../assets/images/package-search-large.webp');
 const packageSearchMedium = require('../../assets/images/package-search-medium.webp');
@@ -16,5 +16,5 @@ export const PackageSearch: FC = () => {
     imageMedium: packageSearchMedium,
   };
 
-  return <ProjectComponent packageProps={packageSearchProps} />;
+  return <ApplicationContainer applicationProps={packageSearchProps} />;
 };

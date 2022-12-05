@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
+import { ApplicationContainer } from '../ApplicationContainer/ApplicationContainer';
 
 const nextNewsLarge = require('../../assets/images/next-news-large.webp');
 const nextNewsMedium = require('../../assets/images/next-news-medium.webp');
@@ -14,5 +14,5 @@ export const NextNews: FC = () => {
     imageMedium: nextNewsMedium,
   };
 
-  return <ProjectComponent packageProps={nextNewsProps} />;
+  return <ApplicationContainer applicationProps={nextNewsProps} />;
 };

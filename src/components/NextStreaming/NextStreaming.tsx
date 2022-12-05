@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
+import { ApplicationContainer } from '../ApplicationContainer/ApplicationContainer';
 
 const nextStreamingLarge = require('../../assets/images/next-streaming-large.webp');
 const nextStreamingMedium = require('../../assets/images/next-streaming-medium.webp');
@@ -14,5 +14,5 @@ export const NextStreaming: FC = () => {
     imageMedium: nextStreamingMedium,
   };
 
-  return <ProjectComponent packageProps={nextStreamingProps} />;
+  return <ApplicationContainer applicationProps={nextStreamingProps} />;
 };

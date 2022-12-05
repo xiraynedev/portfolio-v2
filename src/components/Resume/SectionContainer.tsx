@@ -7,7 +7,7 @@ interface SectionProps {
   description: string;
 }
 
-export const SectionComponent: FC<SectionProps> = ({ title, description }) => {
+export const SectionContainer: FC<SectionProps> = ({ title, description }) => {
   return (
     <Stack borderBottom={1} paddingBottom={4}>
       <Typography variant='h3' mb={3} className='font-bold'>

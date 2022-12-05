@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
+import { ApplicationContainer } from '../ApplicationContainer/ApplicationContainer';
 
 const codingChallengeLarge = require('../../assets/images/coding-challenge-large.webp');
 const codingChallengeMedium = require('../../assets/images/coding-challenge-medium.webp');
@@ -16,5 +16,5 @@ export const CodingChallenge: FC = () => {
     imageMedium: codingChallengeMedium,
   };
 
-  return <ProjectComponent packageProps={codingChallengeProps} />;
+  return <ApplicationContainer applicationProps={codingChallengeProps} />;
 };

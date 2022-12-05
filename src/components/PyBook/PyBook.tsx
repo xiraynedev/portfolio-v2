@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
+import { ApplicationContainer } from '../ApplicationContainer/ApplicationContainer';
 
 const pybookLarge = require('../../assets/images/pybook-large.webp');
 const pybookMedium = require('../../assets/images/pybook-medium.webp');
@@ -13,5 +13,5 @@ export const PyBook: FC = () => {
     imageMedium: pybookMedium,
   };
 
-  return <ProjectComponent packageProps={pybookProps} />;
+  return <ApplicationContainer applicationProps={pybookProps} />;
 };

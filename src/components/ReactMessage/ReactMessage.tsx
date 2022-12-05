@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
+import { ApplicationContainer } from '../ApplicationContainer/ApplicationContainer';
 
 const reactMessageLarge = require('../../assets/images/react-message-large.webp');
 const reactMessageMedium = require('../../assets/images/react-message-medium.webp');
@@ -14,5 +14,5 @@ export const ReactMessage: FC = () => {
     imageMedium: reactMessageMedium,
   };
 
-  return <ProjectComponent packageProps={reactMessageProps} />;
+  return <ApplicationContainer applicationProps={reactMessageProps} />;
 };

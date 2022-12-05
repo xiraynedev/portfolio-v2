@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
+import { ApplicationContainer } from '../ApplicationContainer/ApplicationContainer';
 
 const javaMusicPlayerLarge = require('../../assets/images/java-music-player-large.webp');
 const javaMusicPlayerMedium = require('../../assets/images/java-music-player-medium.webp');
@@ -13,5 +13,5 @@ export const JavaMusicPlayer: FC = () => {
     imageMedium: javaMusicPlayerMedium,
   };
 
-  return <ProjectComponent packageProps={javaMusicPlayerProps} />;
+  return <ApplicationContainer applicationProps={javaMusicPlayerProps} />;
 };

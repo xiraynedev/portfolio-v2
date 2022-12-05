@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { ProjectComponent } from '../ProjectComponent/ProjectComponent';
+import { ApplicationContainer } from '../ApplicationContainer/ApplicationContainer';
 
 const wasmDemoLarge = require('../../assets/images/wasm-demo-large.webp');
 const wasmDemoMedium = require('../../assets/images/wasm-demo-medium.webp');
@@ -14,5 +14,5 @@ export const WasmDemo: FC = () => {
     imageMedium: wasmDemoMedium,
   };
 
-  return <ProjectComponent packageProps={wasmDemoProps} />;
+  return <ApplicationContainer applicationProps={wasmDemoProps} />;
 };

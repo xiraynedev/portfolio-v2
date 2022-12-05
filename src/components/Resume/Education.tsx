@@ -1,6 +1,6 @@
 import Typography from '@mui/material/Typography';
 import React, { FC } from 'react';
-import { SectionComponent } from './SectionComponent';
+import { SectionContainer } from './SectionContainer';
 
 export const Education: FC = () => {
   const databaseEducation = {
@@ -19,8 +19,8 @@ export const Education: FC = () => {
       <Typography variant='h3' className='font-bold'>
         Education
       </Typography>
-      <SectionComponent {...databaseEducation} />
-      <SectionComponent {...technicalEducation} />
+      <SectionContainer {...databaseEducation} />
+      <SectionContainer {...technicalEducation} />
     </>
   );
 };

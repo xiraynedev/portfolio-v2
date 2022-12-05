@@ -1,8 +1,8 @@
 import React, { FC, useLayoutEffect } from 'react';
 import gsap from 'gsap';
 
-interface ProjectProps {
-  packageProps: {
+interface ApplicationContainerProps {
+  applicationProps: {
     title: string;
     text: string;
     liveAnchorHref?: string;
@@ -12,7 +12,7 @@ interface ProjectProps {
   };
 }
 
-export const ProjectComponent: FC<ProjectProps> = ({ packageProps }) => {
+export const ApplicationContainer: FC<ApplicationContainerProps> = ({ applicationProps }) => {
   const {
     title,
     text,
@@ -20,10 +20,10 @@ export const ProjectComponent: FC<ProjectProps> = ({ packageProps }) => {
     sourceAnchorHref,
     imageFull,
     imageMedium,
-  } = packageProps;
+  } = applicationProps;
 
   useLayoutEffect(() => {
-    gsap.to('#project-section', {
+    gsap.to('#application-section', {
       opacity: 1,
       duration: 2.5,
       delay: 1.75,
@@ -33,7 +33,7 @@ export const ProjectComponent: FC<ProjectProps> = ({ packageProps }) => {
 
   return (
     <section
-      id='project-section'
+      id='application-section'
       className='opacity-0 flex flex-col mx-auto mb-20 w-9/12 lg:flex-row lg:mt-12 lg:max-w-screen-lg'
     >
       <article className='my-8 md:mr-20'>
@@ -66,7 +66,7 @@ export const ProjectComponent: FC<ProjectProps> = ({ packageProps }) => {
                 <source srcSet={imageFull} media='(min-width:800px)' />
                 <img
                   src={imageMedium}
-                  alt='project screenshot'
+                  alt='application screenshot'
                   className='rounded-lg'
                 />
               </picture>
@@ -77,7 +77,7 @@ export const ProjectComponent: FC<ProjectProps> = ({ packageProps }) => {
                 <source srcSet={imageFull} media='(min-width:800px)' />
                 <img
                   src={imageMedium}
-                  alt='project screenshot'
+                  alt='application screenshot'
                   className='rounded-lg'
                 />
               </picture>

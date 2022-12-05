@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { SectionComponent } from './SectionComponent';
+import { SectionContainer } from './SectionContainer';
 
 export const Language: FC = () => {
   const languages = {
@@ -7,5 +7,5 @@ export const Language: FC = () => {
     description: `English, Spanish`,
   };
 
-  return <SectionComponent {...languages} />;
+  return <SectionContainer {...languages} />;
 };
