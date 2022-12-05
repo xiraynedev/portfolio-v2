@@ -11,7 +11,7 @@
 
 A portfolio of applications using React, Next.js, TypeScript, Java, C#, Python, C, Django, HTML, CSS, SCSS, Tailwind CSS, webpack, Babel, and Maven.
 
-![application screenshot](src/assets/images/application-screenshot.webp)
+![application screenshot](application-screenshot.webp)
 
 ---
 
