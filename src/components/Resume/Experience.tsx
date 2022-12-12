@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import { SectionContainer } from './SectionContainer';
 
 export const Experience: FC = () => {
-  const firstParagraph = `Three years experience with JavaScript and related libraries and frameworks. Currently working on building a video
+  const firstParagraph = `Three years of self-taught experience with JavaScript and related libraries and frameworks. Currently working on building a video
  streaming microservices application called Next Streaming that uses Next.js and TypeScript to pull video metadata from
  MongoDB and send direct messages to the video storage microservice to stream videos back to the client from Microsoft
  Azure. Terraform will be used to provision cloud infrastructure on any of the major cloud vendors. RabbitMQ will be used

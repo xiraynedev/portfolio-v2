@@ -1,17 +1,12 @@
-import Typography from '@mui/material/Typography';
 import React, { FC } from 'react';
+import Typography from '@mui/material/Typography';
 import { SectionContainer } from './SectionContainer';
 
 export const Education: FC = () => {
-  const databaseEducation = {
-    title: `Master's Certificate in Database Administration and Development`,
-    description: `SetFocus - Parsipanny, New Jersey -
-       Knowledge of SQL databases including designing, implementing, maintaining, and administering SQL Server databases.`,
-  };
-
   const technicalEducation = {
-    title: 'Associate of Science in Computer and Electronics Engineering Technology',
-    description: `Knowledge of circuits, systems, and specialized techniques used in electronics and computer technology fields. Acquired extensive programming knowledge with several computer programming languages.`,
+    title:
+      'Associate of Science Degree in Computer and Electronics Engineering Technology',
+    description: `Acquired knowledge of circuits, systems, and specialized techniques used in electronics and computer technology fields. Built analog and digital systems and worked with programmable logic controllers. Utilized high-level math and algorithms to work with electricity and modern electronic communications.`,
   };
 
   return (
@@ -19,7 +14,6 @@ export const Education: FC = () => {
       <Typography variant='h3' className='font-bold'>
         Education
       </Typography>
-      <SectionContainer {...databaseEducation} />
       <SectionContainer {...technicalEducation} />
     </>
   );
