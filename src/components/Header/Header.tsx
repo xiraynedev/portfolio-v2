@@ -20,7 +20,7 @@ export const Header: React.FC = () => {
           <p className='w-9/12 text-3xl leading-relaxed my-8 mx-auto py-12'>
             Three years experience working with JavaScript and related libraries
             and frameworks. This portfolio showcases applications built using a
-            variety of languages and tools. Currently specialize in React,
+            variety of languages and tools. Currently work with React,
             Next.js, and TypeScript. All of these applications are hosted on
             GitHub, and they have simple instructions for cloning and installing
             them.
