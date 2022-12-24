@@ -6,7 +6,7 @@ import { NextWars } from '../NextWars/NextWars';
 import { AudioConverter } from '../AudioConverter/AudioConverter';
 import { PackageSearch } from '../PackageSearch/PackageSearch';
 import { ThreadSearch } from '../ThreadSearch/ThreadSearch';
-import { JavaMusicPlayer } from '../JavaMusicPlayer/JavaMusicPlayer';
+import { JavaMusic } from '../JavaMusic/JavaMusic';
 import { NextNews } from '../NextNews/NextNews';
 import { PyBook } from '../PyBook/PyBook';
 import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
@@ -39,7 +39,7 @@ export const Container: React.FC = () => {
       <AudioConverter />
       <PackageSearch />
       <ThreadSearch />
-      <JavaMusicPlayer />
+      <JavaMusic />
       <NextNews />
       <PyBook />
       <CodingChallenge />
