@@ -11,8 +11,6 @@ import { NextNews } from '../NextNews/NextNews';
 import { PyBook } from '../PyBook/PyBook';
 import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
 import { ReactMessage } from '../ReactMessage/ReactMessage';
-import { WasmDemo } from '../WasmDemo/WasmDemo';
-import { ReactDesign } from '../ReactDesign/ReactDesign';
 import { Footer } from '../Footer/Footer';
 
 export const Container: React.FC = () => {
@@ -44,8 +42,6 @@ export const Container: React.FC = () => {
       <PyBook />
       <CodingChallenge />
       <ReactMessage />
-      <WasmDemo />
-      <ReactDesign />
       <Footer />
     </>
   );
