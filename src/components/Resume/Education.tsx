@@ -6,7 +6,7 @@ export const Education: FC = () => {
   const technicalEducation = {
     title:
       'Associate of Science Degree in Computer and Electronics Engineering Technology',
-    description: `Acquired knowledge of circuits, systems, and specialized techniques used in electronics and computer technology fields. Built analog and digital systems and worked with programmable logic controllers. Utilized high-level math and algorithms to work with electricity and modern electronic communications.`,
+    description: `Acquired an Associate of Science degree while building knowledge of circuits, systems, and specialized techniques used in electronics and computer technology fields. Built analog and digital systems and worked with programmable logic controllers. Utilized high-level math and algorithms to work with electricity and modern electronic communications.`,
   };
 
   return (
