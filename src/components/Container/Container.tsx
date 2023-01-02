@@ -11,6 +11,7 @@ import { NextNews } from '../NextNews/NextNews';
 import { PyBook } from '../PyBook/PyBook';
 import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
 import { ReactMessage } from '../ReactMessage/ReactMessage';
+import { JavaMortgage } from '../JavaMortgage/JavaMortgage';
 import { Footer } from '../Footer/Footer';
 
 export const Container: React.FC = () => {
@@ -42,6 +43,7 @@ export const Container: React.FC = () => {
       <PyBook />
       <CodingChallenge />
       <ReactMessage />
+      <JavaMortgage />
       <Footer />
     </>
   );
