@@ -4,7 +4,7 @@ import { SectionContainer } from './SectionContainer';
 export const Skill: FC = () => {
   const skills = {
     title: 'Skills',
-    description: `React, Next.js, TypeScript, JavaScript, Node.js, Redux, HTML, CSS, SCSS, Tailwind CSS, Java, Python, C#, .NET, SQL, MongoDB, Django, Express.js, Git, GitHub, webpack, Maven, Linux, Docker, Google Cloud Platform, Amazon Web Services, Microsoft Azure`,
+    description: `C#, .NET, ASP.NET, SQL Server, React.js, Next.js, TypeScript, JavaScript, Node.js, Redux, Git, GitHub, HTML, CSS, SCSS, Tailwind CSS, Java, Python, MongoDB, Django, Express.js, REST APIs, webpack, Maven, Linux, Docker, AWS, Azure, GCP`,
   };
 
   return <SectionContainer {...skills} />;
