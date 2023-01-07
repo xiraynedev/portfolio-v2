@@ -4,6 +4,7 @@
 ![webpack](https://img.shields.io/badge/webpack-5.69.0-blue)
 ![webpack-cli](https://img.shields.io/badge/webpack--cli-5.0.0-blue)
 ![webpack-dev-server](https://img.shields.io/badge/webpack--dev--server-4.7.4-blue)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/29dc97ec-bca5-4fd9-bd59-08d4194318ab/deploy-status)](https://app.netlify.com/sites/portfolio-apps/deploys)
 
 # portfolio-v2
 
