@@ -23,7 +23,7 @@ export const Resume: FC = () => {
         <Typography variant='h1' pb={2}>
           Raymond Cortes
         </Typography>
-        <Typography className='text-4xl'>xiraynedev@gmail.com</Typography>
+        <Typography className='text-4xl'>xiraynedev@outlook.com</Typography>
         <Typography className='text-4xl'>Location</Typography>
         <Typography className='text-4xl'>Coconut Creek, FL</Typography>
       </Stack>
