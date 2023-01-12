@@ -7,7 +7,6 @@ import { AudioConverter } from '../AudioConverter/AudioConverter';
 import { PackageSearch } from '../PackageSearch/PackageSearch';
 import { ThreadSearch } from '../ThreadSearch/ThreadSearch';
 import { JavaMusic } from '../JavaMusic/JavaMusic';
-import { NextNews } from '../NextNews/NextNews';
 import { PyBook } from '../PyBook/PyBook';
 import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
 import { ReactMessage } from '../ReactMessage/ReactMessage';
@@ -39,7 +38,6 @@ export const Container: React.FC = () => {
       <PackageSearch />
       <ThreadSearch />
       <JavaMusic />
-      <NextNews />
       <PyBook />
       <CodingChallenge />
       <ReactMessage />
