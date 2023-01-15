@@ -18,7 +18,12 @@ export const Header: React.FC = () => {
         </h1>
         <article>
           <p className='w-9/12 text-3xl leading-relaxed my-8 mx-auto py-12'>
-            Self-taught software development knowledge with experience using numerous tools, libraries, and frameworks. Experience with ASP.NET Core, MVC, Blazor, Razor Pages, and SQL Server 2019 and 2022. Familiar with the software development process while utilizing GitHub Actions for CI/CD. Knowledge of agile frameworks, including Scrum and Kanban. Skilled in refactoring and optimizing code with SOLID design principles.
+            Experienced with numerous tools, libraries, and frameworks,
+            including ASP.NET Core, MVC, Blazor, Razor Pages, and SQL Server
+            2019 and 2022. Familiar with the software development process while
+            utilizing GitHub Actions for CI/CD. Knowledge of agile frameworks,
+            including Scrum and Kanban. Skilled in refactoring and optimizing
+            code with SOLID design principles.
           </p>
           <a
             href='https://github.com/xiraynedev'
