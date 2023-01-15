@@ -1,7 +1,6 @@
 import React, { useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import { Header } from '../Header/Header';
-import { NextStreaming } from '../NextStreaming/NextStreaming';
 import { NextWars } from '../NextWars/NextWars';
 import { AudioConverter } from '../AudioConverter/AudioConverter';
 import { PackageSearch } from '../PackageSearch/PackageSearch';
@@ -32,7 +31,6 @@ export const Container: React.FC = () => {
       >
         APPLICATIONS
       </h2>
-      <NextStreaming />
       <NextWars />
       <AudioConverter />
       <PackageSearch />
