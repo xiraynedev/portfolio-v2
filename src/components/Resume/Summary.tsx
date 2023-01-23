@@ -4,7 +4,7 @@ import { SectionContainer } from './SectionContainer';
 export const Summary: FC = () => {
   const summary = {
     title: 'Summary',
-    description: `Seeking to enter the software development field with knowledge of numerous software technologies, continual study, and the ability to work independently or in team environments.`,
+    description: `Several years of experience working with front-end technologies, like HTML, CSS, JS, and React. Experienced with backend development using Node.js and .NET. Familiar with the Scrum and Kanban frameworks. Excellent problem solver and team player.`,
   };
 
   return <SectionContainer {...summary} />;
