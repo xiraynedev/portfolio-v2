@@ -22,8 +22,7 @@ export const Header: React.FC = () => {
             including ASP.NET Core, MVC, Blazor, Razor Pages, and SQL Server
             2019 and 2022. Familiar with the software development process while
             utilizing GitHub Actions for CI/CD. Knowledge of agile frameworks,
-            including Scrum and Kanban. Skilled in refactoring and optimizing
-            code with SOLID design principles.
+            including Scrum and Kanban.
           </p>
           <a
             href='https://github.com/xiraynedev'
