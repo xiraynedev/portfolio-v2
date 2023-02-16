@@ -3,13 +3,12 @@ import gsap from 'gsap';
 import { Header } from '../Header/Header';
 import { NextWars } from '../NextWars/NextWars';
 import { AudioConverter } from '../AudioConverter/AudioConverter';
+import { JavaMortgage } from '../JavaMortgage/JavaMortgage';
 import { PackageSearch } from '../PackageSearch/PackageSearch';
 import { ThreadSearch } from '../ThreadSearch/ThreadSearch';
 import { JavaMusic } from '../JavaMusic/JavaMusic';
-import { PyBook } from '../PyBook/PyBook';
 import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
 import { ReactMessage } from '../ReactMessage/ReactMessage';
-import { JavaMortgage } from '../JavaMortgage/JavaMortgage';
 import { Footer } from '../Footer/Footer';
 
 export const Container: React.FC = () => {
@@ -33,13 +32,12 @@ export const Container: React.FC = () => {
       </h2>
       <NextWars />
       <AudioConverter />
+      <JavaMortgage />
       <PackageSearch />
       <ThreadSearch />
       <JavaMusic />
-      <PyBook />
       <CodingChallenge />
       <ReactMessage />
-      <JavaMortgage />
       <Footer />
     </>
   );
