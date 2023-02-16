@@ -39,12 +39,6 @@ export const Header: React.FC = () => {
           >
             View GitHub Profile
           </a>
-          <Link
-            to='/resume'
-            className='block w-9/12 p-4 text-3xl mx-auto text-center border transition ease-in duration-300'
-          >
-            View Resume
-          </Link>
         </article>
       </section>
     </header>
