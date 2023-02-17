@@ -7,8 +7,6 @@ import { JavaMortgage } from '../JavaMortgage/JavaMortgage';
 import { PackageSearch } from '../PackageSearch/PackageSearch';
 import { ThreadSearch } from '../ThreadSearch/ThreadSearch';
 import { JavaMusic } from '../JavaMusic/JavaMusic';
-import { CodingChallenge } from '../CodingChallenge/CodingChallenge';
-import { ReactMessage } from '../ReactMessage/ReactMessage';
 import { Footer } from '../Footer/Footer';
 
 export const Container: React.FC = () => {
@@ -36,8 +34,6 @@ export const Container: React.FC = () => {
       <PackageSearch />
       <ThreadSearch />
       <JavaMusic />
-      <CodingChallenge />
-      <ReactMessage />
       <Footer />
     </>
   );
