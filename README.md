@@ -10,7 +10,7 @@
 
 ## See the application live [here](https://portfolio-apps.netlify.app/)
 
-A portfolio of applications using React, Next.js, TypeScript, Java, C#, HTML, CSS, SCSS, Tailwind CSS, and webpack.
+A portfolio of applications using React, Next.js, TypeScript, Java, C#, HTML, CSS, SCSS, and Tailwind CSS.
 
 ![application screenshot](application-screenshot.webp)
 
