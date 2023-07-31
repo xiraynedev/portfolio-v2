@@ -18,19 +18,9 @@ export const Header: React.FC = () => {
         </h1>
         <article>
           <p className='w-9/12 text-3xl leading-relaxed my-8 mx-auto py-12'>
-            Several years experience working with JavaScript building complex
-            applications that securely store data in cloud databases, provide
-            authentication and authorization to users, and increase the
-            performance of applications while making them responsive to mobile
-            devices. Applications include using Next.js to retrieve REST API
-            JSON to display to clients, converting between different audio
-            formats in C# with multiple processes, searching the NPM registry
-            for packages while keeping track of state with the Redux Toolkit,
-            searching a file system for file sizes by using different threads,
-            using Java to create a music player that randomly selects different
-            songs to play, and having a portfolio of applications built entirely
-            from scratch using React, TypeScript, Tailwind CSS, GSAP for
-            animations, and webpack.
+            Using JavaScript to build full-stack applications with various libraries and frameworks. Persistent and responsible
+go-getter looking to collaborate with other developers to create and maintain highly sophisticated and well-performing
+applications.
           </p>
           <a
             href='https://github.com/xiraynedev'
