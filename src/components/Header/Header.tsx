@@ -1,5 +1,4 @@
 import React, { useLayoutEffect } from 'react';
-import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 
 export const Header: React.FC = () => {
