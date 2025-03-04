@@ -23,7 +23,7 @@ export const ApplicationContainer: FC<ApplicationContainerProps> = ({ applicatio
   } = applicationProps;
 
   useLayoutEffect(() => {
-    gsap.to('#application-section', {
+    gsap.to('.application-section', {
       opacity: 1,
       duration: 2.5,
       delay: 1.75,
@@ -33,8 +33,7 @@ export const ApplicationContainer: FC<ApplicationContainerProps> = ({ applicatio
 
   return (
     <section
-      id='application-section'
-      className='opacity-0 flex flex-col mx-auto mb-20 w-9/12 lg:flex-row lg:mt-12 lg:max-w-screen-lg'
+      className='application-section opacity-0 flex flex-col mx-auto mb-20 w-9/12 lg:flex-row lg:mt-12 lg:max-w-screen-lg'
     >
       <article className='my-8 md:mr-20'>
         <h3 className='font-bold text-5xl mb-5'>{title}</h3>
@@ -58,16 +57,16 @@ export const ApplicationContainer: FC<ApplicationContainerProps> = ({ applicatio
           )}
         </div>
       </article>
-      <article className='my-8 shrink-0 w-full h-full md:w-7/12 shadow border-0 rounded-lg'>
+      <article className='my-8 w-full shadow border-0 rounded-lg'>
         <div className='w-full'>
           {liveAnchorHref ? (
             <a href={liveAnchorHref}>
               <picture>
                 <source srcSet={imageFull} media='(min-width:800px)' />
-                <img
+                <img 
                   src={imageMedium}
                   alt='application screenshot'
-                  className='rounded-lg'
+                  className='text-center rounded-lg'
                 />
               </picture>
             </a>

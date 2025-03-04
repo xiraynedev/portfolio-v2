@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
   return (
     <header
       id='top'
-      className='opacity-0 text-white mx-auto bg-gradient-to-r from-gray-500 to-gray-900 py-20'
+      className='opacity-0 text-white mx-auto bg-gradient-to-r from-gray-500 to-gray-900 py-12'
     >
       <section className='lg:max-w-screen-lg mx-auto'>
         <h1 className='text-center text-6xl font-bold p-4 mb-5'>
@@ -23,7 +23,7 @@ applications.
           </p>
           <a
             href='https://github.com/xiraynedev'
-            className='block w-9/12 my-8 p-4 text-3xl mx-auto text-center border'
+            className='block w-9/12 p-4 text-3xl mx-auto text-center border'
           >
             View GitHub Profile
           </a>

@@ -24,7 +24,7 @@ export const Container: React.FC = () => {
       <Header />
       <h2
         id='title'
-        className='-translate-x-full text-center mt-20 mb-8 lg:mb-20 text-6xl font-bold'
+        className='-translate-x-full text-center mt-12 mb-8 lg:mb-20 text-6xl font-bold'
       >
         APPLICATIONS
       </h2>
