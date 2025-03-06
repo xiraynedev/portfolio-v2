@@ -32,7 +32,6 @@
     "webpack-merge": "^6.0.1"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.6",
     "gsap": "^3.10.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
